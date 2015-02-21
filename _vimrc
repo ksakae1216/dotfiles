@@ -75,3 +75,5 @@ nnoremap <silent> <C-^> <Nop>
 let IM_CtrlMode = 4
 " 「日本語入力固定モード」切替キー
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
+"フォント設定
+set guifont=Osaka−等幅:h13
