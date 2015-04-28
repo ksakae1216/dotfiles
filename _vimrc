@@ -77,3 +77,15 @@ let IM_CtrlMode = 4
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 "フォント設定
 set guifont=Osaka−等幅:h13
+
+set nocompatible
+filetype off
+
+set rtp+=~/dotfiles/vimfiles/vundle.git/
+call vundle#rc()
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/unite.vim'
+Bundle 'thinca/vim-ref'
+Bundle 'thinca/vim-quickrun'
+filetype plugin indent on     " required!
+
