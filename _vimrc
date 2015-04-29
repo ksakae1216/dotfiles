@@ -20,6 +20,10 @@ set showcmd
 " タイトルを表示
 set title
 
+"挿入モード時にIMEデフォルトOFF
+set iminsert=0
+set imsearch=-1
+
 " クリップボードからペースト
 set guioptions+=ab
 syntax on
