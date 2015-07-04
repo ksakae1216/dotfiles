@@ -93,3 +93,5 @@ Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 filetype plugin indent on     " required!
 
+" ノーマルモード時imeオフ
+set imdisable
