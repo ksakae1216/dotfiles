@@ -1,7 +1,11 @@
 " カラースキーマ
-"colorscheme murphy
-"colorscheme solarized
-colorscheme default
+if has('gui')
+		"gvim
+		colorscheme murphy
+	else
+		"vim
+		colorscheme default
+endif
 
 " 行番号を非表示 (number:表示)
 set number
